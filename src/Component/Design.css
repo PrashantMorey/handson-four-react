@@ -1,0 +1,63 @@
+.header{
+    font-size: 35px;
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 7px;
+    background-color: #081e74;
+}
+.header1{
+    text-decoration: none;
+    color: white;
+}
+.header1:hover{
+    color: pink;
+}
+.homePage{
+    margin-left: 50px;
+}
+.contact{
+    margin-left: 50px;
+}
+.students{
+    font-size: 50px;
+    margin-left: 50px;
+}
+.studentHead{
+    display: flex;
+    justify-content:space-between;
+}
+.studentButton{
+    height: 50px;
+    margin-top: 40px;
+    margin-right: 70px;
+    width: 300px;
+    font-size: 28px;
+    border-radius: 25px;
+    background-color: aliceblue;
+}
+.studentTable{
+    font-size: larger;
+    border: 1px solid gray;
+    width: 80%;
+    margin: 0 auto;
+    font-weight: 495;
+    background-color: aliceblue;
+
+    
+}
+.studentTr{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    height: 50px;
+    justify-content: center;
+    justify-items: center;
+    padding-top: 15px;
+}
+hr{
+    margin: 0;
+}
+.App{
+    height: 100vh;
+    background: linear-gradient( rgba(170,208,224,1) 0%, rgba(243,172,184,1) 51%, rgba(248,243,244,1) 100%);
+  }
+
